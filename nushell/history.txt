@@ -1,0 +1,516 @@
+ls
+cd ~/.config
+ls
+cd nushell/
+ls
+which nu
+chsh -s /home/mkurin/.cargo/bin/nu
+sudo nano /etc/shells
+chsh -s /home/mkurin/.cargo/bin/nu
+mc
+exit
+ls
+cd ~/.config/
+ls
+cd nushell/
+ls
+cod config.nu
+code config.nu
+cargo install starship
+cargo
+echo $nu.path
+echo $nu.env-path
+echo $PATH
+bash
+echo $nu.env-path
+code $nu.env-path
+echo ($env.PATH | split row (char esep) | prepend '/some/path')
+echo $env.PATH
+echo ($env.PATH | split row (char esep) <\n>| prepend '/home/mkurin/.cargo/bin')
+exit
+code ~/.config/nushell/config.nu
+cargo
+cargo install starship
+sudo apt install cmake
+cargo install starship
+starship
+mc
+ls
+cd programs/
+ls
+cd configs/
+ls
+cd ~/.config/nushell/
+ls
+code config.nu
+code ~/.config/nushell/config.nu
+ls
+prompt
+cd ~/.config/
+ls
+cargo install starship
+exit
+ls
+exit
+ssd
+cd ~/.config/
+exit
+$nu.env-path
+code $nu.env-path
+code $nu.config-path
+ls
+cd ~/programs/configs/
+starship preset nerd-font-symbols -o ~/.config/starship.toml
+starship preset tokyo-night -o ~/.config/starship.toml
+touch test.txt
+touch test0.txt
+rm -rf test.txt test0.txt
+cargo install gituo
+cargo install gitui
+starship preset pure-preset -o ~/.config/starship.toml
+ls
+cargo install joshuto
+joshuto
+cargo remove joshuto
+cargo uninstall joshuto
+sudo apt install ranger
+ranger
+mc
+git clone https://github.com/compiler-explorer/compiler-explorer.git
+cd compiler-explorer/
+ranger
+sudo apt remove mc
+range
+ranger
+sudo apt install nodejs
+ls
+make
+exit
+ranger
+mv compiler-explorer/ code
+cd code
+ranger
+make
+ranger
+cd compiler-explorer/
+make
+node -v
+sudo apt remove nodejs
+sudo apt install curl software-properties-common<\n>
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh
+ls
+ls | rg install
+ranger
+sudo apt install mc
+mc
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+source ~/.bashrc
+exit
+nvm list-remote
+npm list-remote
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+mc
+sudo apt remove nodejs
+mc
+sudo apt-get update<\n>sudo apt-get install -y ca-certificates curl gnupg
+sudo mkdir -p /etc/apt/keyrings<\n>curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg<\n>
+echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+sudo apt-get update<\n>sudo apt-get install nodejs -y
+npm --version
+nodejs --version
+ls
+cd code
+ls
+cd compiler-explorer/
+ls
+make
+ls
+mc
+cd etc
+ls
+cd config
+ls
+code mycompiler.defaults.properties
+which clang
+which clang++
+which clang++17
+clang-17
+clang-18
+where clang-17
+mc
+cd ~/
+wget https://apt.llvm.org/llvm.sh<\n>chmod u+x llvm.sh<\n>sudo ./llvm.sh
+clang-17 --version
+which clang-17
+which clang++-17
+cd code/compiler-explorer/
+cd etc/config/
+ls
+code c++.defaults.properties
+cd ..
+make
+cd code/compiler-explorer/
+make
+cd code/compiler-explorer/
+cd etc/config/
+code mycompiler.defaults.properties
+cd ..
+make
+cd code/compiler-explorer/
+cd etc/config/
+ls
+which clang++-17
+make
+ls
+code c++.amazon.properties
+ls
+sudo apt install lf
+sudo apt update
+sudo apt install lf
+cargo install hunter
+ls
+cd programs/
+ls
+cd oxidise/
+code oxidise.sh
+sudo apt-get install libglib2.0-dev
+cargo install hunter
+sudo apt-get install libgstreamer1.0-dev
+cargo install hunter
+sudo apt install libglib2.0-dev libgstreamer1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
+cargo install hunter
+sudo apt-get install libgstreamer-plugins-base1.0-dev
+cargo install hunter
+sudo apt install gcc libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-good libgstreamer-plugins-bad1.0-dev libsixel-bin
+cargo install hunter
+cargo install hunter --no-default-features
+code /home/mkurin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/osstrtools-0.2.2/src/lib.rs:754:42
+code /home/mkurin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/osstrtools-0.2.2/src/lib.rs
+cargo install hunter
+rustup toolchain install nightly
+rustup override set nightly
+rustup override set nightly*
+cargo install hunter
+ranger
+ranger --copy-config=rc
+ls
+sudo apt install gnome-text-editor -y
+gnome-text-editor ~/.bashrc
+ls
+mc
+ls
+cd code
+mkdir test
+cd test
+code ./
+sudo apt install freeglut3-dev
+g++ -o triangle main.cpp -lGL -lGLU -lglut
+clang++ -o triangle main.cpp -lGL -lGLU -lglut
+clang++-17 -o triangle main.cpp -lGL -lGLU -lglut
+./triangle
+mc
+ls
+ranger
+code ~/.config/ranger/rc.conf
+ranger
+ls
+ranger
+echo $SHELL
+echo env.SHELL
+echo $env.SHELL
+ls
+code ~/.config/nushell/config.nu
+code ~/.config/nushell/ranger.nu
+exit
+nu
+exit
+nu
+exit
+ranger
+ranger_cd
+exit
+ranger_cd
+exit
+ranger_cd
+exit
+ranger_cd
+ls
+ranger_cd
+ls
+rm -rf ./tmp*
+ls
+cd code
+ls
+sudo apt install harpoon
+vimtutor
+ip addr
+sudo apt install openssh-server
+ls
+cd c:
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd home/
+where nu
+which nu
+ls
+test
+ls
+git st
+mc
+ls
+exit
+ls
+exit
+ды
+ls
+cd code
+ls
+exit
+ls
+cd ..
+ls
+cd pro
+cd programs/
+ls
+exit
+ls | count-17 
+count-17
+count-17 10
+help count-17
+count-17 --help
+ls
+cd programs/
+ls
+cd oxidise/
+ls
+git push
+cd ..
+cd configs/
+ls
+vim setup.sh
+git config --global user.name "last1k"
+vim setup.sh
+git config --global user.email "kurinmaksim42@gmail.com"
+git push
+git fetch
+git push
+ssh-keygen -t ed25519 -C kurinmaksim42@gmail.com
+do ssh-agent -s
+help do
+do { ssh-agent -s }
+cat ~/.ssh/id_ed25519.pub
+vim setup.sh
+exi
+exit
+git st
+git status
+git dog
+ls
+cd ..
+cd oxidise/
+git status
+git add -u
+git commit -m 'Init'
+git push
+git fetch --all
+git --set-upstream https://github.com/Last1k96/oxidise
+git remote add upsteam https://github.com/Last1k96/oxidise
+git remote remove upstream
+git remote --list
+git remote list
+git remote -v
+git remote remove upstream
+git fetch --all
+git remote remove upstream
+git remote remove https://github.com/Last1k96/oxidise
+git push
+git remote set-url origin git@github.com/Last1k96/oxidise.git
+git push
+git remote set-url origin git@github.com:Last1k96/oxidise.git
+git pull
+git push
+git st
+git status
+git add oxidise.sh
+git amend
+git commit --amend --no-edit
+git push -f
+vim setup.sh
+ls
+vim oxidise.sh
+ls
+cd ..
+ls
+cd programs/
+ls
+cd oxidise/
+ls
+vim oxidise.sh
+echo $nu.env-path
+vim $nu.env-path
+ls
+tmux
+ps
+ls
+cd code
+ls
+cd compiler-explorer/
+lsls
+ls
+cat app.ts
+tmix ls
+tmux ls
+tmux a 0
+tmux at 0
+htop
+tmux a -t 0
+ls
+clear
+ls
+pwd
+ls
+git st
+exit
+ls
+tmux
+ls
+tmux ls
+ls
+pwd
+tmux
+ls
+lsllslslslsls
+train
+ls
+vim $nu.env-path
+echo $nu.env-path
+vim ~/.cache/starship/init.nu
+find starship.toml
+find . -iname starship.toml
+find . starship.toml
+find -h
+tmux --help
+ls **/starship.toml
+ls
+cd .config
+ls --help | less
+ls --help
+ls --help | find hidden
+ls -a 
+path starship.toml
+ls | select starship.toml, path
+ls | select name, starship.toml
+ls | select name, path
+ls 
+ls | select name
+concat 
+ls | select name, path
+ls | select path
+ls | get path
+ls | get name
+ls
+exit
+ls
+cd ..
+ls
+xlear
+exit
+clear
+vim ~/.config/starship.toml
+exit
+exit
+tmux
+exit
+tmux ls
+tmux --help
+ls
+cd ~
+exit
+ls
+cd code
+ls
+cd compiler-explorer/
+ls
+clear
+exit
+vim ~/.config/starship.toml
+exit
+tmux ls
+tmux ks -t 0
+tmux --help
+tmux -h
+tmux kill-session -t 0
+tmux ls
+ls
+cd code
+ls
+cd compiler-explorer/
+ls
+exit
+ls
+vim ~/.config/starship.toml
+exit
+exit
+tmux
+exit
+ls
+cd code
+ls
+cd compiler-explorer/
+ls
+cd ..
+ls
+cd ~/.config/
+ls
+cd ..
+cd code
+ls
+git clone git@github.com:openvinotoolkit/openvino.git
+cd openvino/
+touch test0.txt
+touch test1.txt
+starls
+ls
+vim cspell.json
+vim vcpkg.json
+ls
+'/mnt/c/Users/username/scoop/apps/starship/current/starship.exe'<\n> 
+exit
+vim ~/.config/starship.toml
+tmux
+ls
+clear
+git st
+git status
+git add cspell.json
+git status
+ls
+vim conanfile.txt
+git status
+git stash push conanfile.txt
+git stash pop
+clear
+exit
+ls
+cd code
+ls
+git clone git@github.com:Last1k96/oxidise.git
+cd oxidise/
+vim alacritty.toml
+ls
+cp ~/.config/starship.toml ./
+ls
+cd ~/.config
+ls
+cd nushell/
+ls
+cd ..
+cd ~/code/
+ls
+cd oxidise/
+ls
+cp ~/.config/nushell/ ./

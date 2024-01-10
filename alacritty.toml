@@ -1,0 +1,13 @@
+[shell]
+program = "C:\\Windows\\System32\\wsl.exe"
+args = ["~"]
+
+[window]
+decorations = "none"
+padding = { x = 10, y = 10 }
+opacity = 0.90
+startup_mode = "Maximized"
+
+[font]
+size = 16
+normal = { family = "FiraCode Nerd Font", style = "Regular" }
